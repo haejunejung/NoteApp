@@ -1,0 +1,16 @@
+.App {
+  font-family: "BrunoAce";
+
+  width: 100vw;
+  height: 100vh;
+  background-color: paleturquoise;
+}
+
+.container {
+  padding: 20vh;
+}
+
+@font-face {
+  font-family: "BrunoAce";
+  src: url(./asset/fonts/BrunoAce-Regular.ttf);
+}
