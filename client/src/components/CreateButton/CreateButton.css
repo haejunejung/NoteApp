@@ -1,0 +1,13 @@
+.CreateButton {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 10px;
+}
+
+.CreateButton:hover {
+  text-shadow: 2px 2px 6px #00000040;
+}
+
+.CreateButton:active {
+  text-shadow: none;
+}

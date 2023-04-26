@@ -1,5 +1,17 @@
+import Content from "../Content/Content";
+import "./NoteList.css";
+
 const NoteList = () => {
-  return <div>This part is Note List</div>;
+  return (
+    <div className="NoteList">
+      <div className="Contents-container">
+        <Content />
+        <Content />
+        <Content />
+        <Content />
+      </div>
+    </div>
+  );
 };
 
 export default NoteList;

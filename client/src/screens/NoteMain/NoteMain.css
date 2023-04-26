@@ -1,26 +1,66 @@
 .Note {
-  display: flex;
-  justify-content: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 3em;
+  height: 320px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px;
   text-align: center;
 
+  position: relative;
+  transition: all 0.2s ease-in-out;
+
   width: 50vw;
-  height: 60vh;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  border: 1px solid black;
-  border-radius: 10%;
+  height: 70vh;
 }
 
-.Title {
-  background-color: red;
+.drop {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  transition: all 0.2s ease;
 }
 
-.NoteList {
-  background-color: blue;
+.drop-1 {
+  height: 80px;
+  width: 80px;
+  top: -20px;
+  left: -3vw;
+  z-index: -1;
 }
 
-.CreateButton {
-  background-color: yellow;
+/* .drop-2 {
+  height: 80px;
+  width: 80px;
+  bottom: -30px;
+  right: -10px;
+} */
+
+.drop-3 {
+  height: 120px;
+  width: 120px;
+  top: -20px;
+  left: 45vw;
+  /* z-index: -1; */
 }
+/* 
+.drop-4 {
+  height: 120px;
+  width: 120px;
+  top: -60px;
+  right: -60px;
+}
+
+.drop-5 {
+  height: 60px;
+  width: 60px;
+  bottom: 170px;
+  left: 90px;
+  z-index: -1;
+} */

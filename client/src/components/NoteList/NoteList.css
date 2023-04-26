@@ -1,0 +1,11 @@
+.NoteList {
+  background: transparent;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: none;
+}
+
+.Contents-container {
+  display: flex;
+  flex-direction: column;
+}

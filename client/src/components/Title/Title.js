@@ -1,8 +1,9 @@
+import "./Title.css";
+
 const Title = () => {
   return (
-    <div>
+    <div className="Title">
       <div>Notes App</div>
-      <div>Take notes and never forget</div>
     </div>
   );
 };
