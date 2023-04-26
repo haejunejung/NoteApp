@@ -2,7 +2,7 @@ import "./Title.css";
 
 const Title = () => {
   return (
-    <div className="Title">
+    <div className="title-container">
       <div>Notes App</div>
     </div>
   );
