@@ -1,19 +1,26 @@
-import { useRecoilValue } from "recoil";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import NoteMain from "./NoteMain/pages/NoteMain";
 import CreateNote from "./CreateNote/pages/CreateNote";
-
-import { screenState } from "./recoil/state";
+import Non404 from "./NonePage/None404";
 
 import "./App.css";
 
 const App = () => {
-  const screen = useRecoilValue(screenState);
-
   return (
     <div className="App">
       <div className="container">
-        {screen === "NoteMain" ? <NoteMain /> : <CreateNote />}
+        <Router>
+          <Route path="/NoteMain">
+            <NoteMain />
+          </Route>
+          <Route path="/CreateNote">
+            <CreateNote />
+          </Route>
+          <Route path="*">
+            <Non404 />
+          </Route>
+        </Router>
       </div>
     </div>
   );
