@@ -1,9 +1,12 @@
-import NoteMain from "./screens/NoteMain/NoteMain";
 import { useRecoilValue } from "recoil";
 
-import "./App.css";
+import NoteMain from "./NoteMain/pages/NoteMain";
+import CreateNote from "./CreateNote/pages/CreateNote";
+
 import { screenState } from "./recoil/state";
-import CreateNote from "./screens/CreateNote/CreateNote";
+
+import "./App.css";
+
 const App = () => {
   const screen = useRecoilValue(screenState);
 

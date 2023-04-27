@@ -1,6 +1,7 @@
-import BackButton from "../../components/Bottons/BackButton/BackButton";
-import DoneButton from "../../components/Bottons/DoneButton/DoneButton";
-import Title from "../../components/Title/Title";
+import BackButton from "../components/BackButton/BackButton";
+import DoneButton from "../components/DoneButton/DoneButton";
+
+import Title from "../../shared/components/Title/Title";
 
 import "./CreateNote.css";
 

@@ -1,8 +1,10 @@
 import { useSetRecoilState } from "recoil";
-import ButtonContainer from "../ButtonContainer";
+
+import Button from "../../../shared/components/Button/Button";
+
+import { screenState } from "../../../recoil/state";
 
 import "./DoneButton.css";
-import { screenState } from "../../../recoil/state";
 
 const DoneButton = () => {
   const setScreen = useSetRecoilState(screenState);
@@ -13,7 +15,7 @@ const DoneButton = () => {
 
   return (
     <div className="DoneButton-container">
-      <ButtonContainer content="Done" handler={handleChangeScreen} />
+      <Button content="Done" handler={handleChangeScreen} />
     </div>
   );
 };

@@ -1,7 +1,9 @@
+import Lists from "../components/NoteList/Lists/Lists";
+import CreateButton from "../components/CreateButton/CreateButton";
+
+import Title from "../../shared/components/Title/Title";
+
 import "./NoteMain.css";
-import Title from "../../components/Title/Title";
-import Lists from "../../components/Lists/Lists";
-import CreateButton from "../../components/Bottons/CreateButton/CreateButton";
 
 const NoteMain = () => {
   return (

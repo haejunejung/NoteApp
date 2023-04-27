@@ -1,4 +1,5 @@
-import Content from "./Content/Content";
+import Content from "../Contents/Content";
+
 import "./Lists.css";
 
 const Lists = () => {
